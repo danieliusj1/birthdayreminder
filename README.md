@@ -4,6 +4,9 @@
 
 The **Birthday Reminder App** is a Python-based application designed to help users manage and track birthdays. The app provides functionalities to add, remove, and display birthdays for multiple users, as well as send notifications on the day of the birthday. Additionally, the app saves and loads birthday data to/from a JSON file, ensuring data persistence between sessions.
 
+### 1.1. How to launch it
+
+The launching process includes some command work and requires to have Python installed on the user's computer. The user needs to **open powershell in the program directory and execute the following command**: 'python main.py'. There is an executable called 'main.exe' in the 'dist' folder, however, the program **does not send out notifications** when opened using the '.exe'.
 ## 2. Features
 
 - **Add Users**: Users can be added to the system, each with their own set of birthdays.
@@ -49,7 +52,7 @@ class NotificationService(Notifier):
 
 The **Birthday Reminder App** has been thoroughly tested using Python's **`unittest`** framework to ensure that all features work as expected. These tests cover the addition/removal of users and birthdays, checking for birthdays on the current day, saving/loading data, and more.
 
-Additionally, an **executable** (.exe) file has been created using **PyInstaller**. This executable makes it easier to launch the app without the need for running Python commands in PowerShell or the terminal. Instead of using the `python main.py` command, users can **double-click the `.exe` file** inside of the *dist* folder to run the app. The executable provides a more user-friendly experience, especially for those who are not familiar with command-line usage.
+Additionally, an **executable** (.exe) file has been created using **PyInstaller**. This executable makes it easier to launch the testing experience without the need for running Python commands in PowerShell or the terminal. Instead of using the `python test_main.py` command, users can **double-click the `.exe` file** inside of the *dist* folder to run the app. The executable provides a more user-friendly experience, especially for those who are not familiar with command-line usage.
 
 ### 5.1. Test Coverage
 The unit tests cover the following functionalities:

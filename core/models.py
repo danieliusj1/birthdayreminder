@@ -15,12 +15,13 @@ class Person:
 
 class User:
     def __init__(self, user_id: str, name: str):
+        #encapsulation example - fields like self.birthdays and self.name are encapsulated inside the project
         self.user_id = user_id
         self.name = name
         self.birthdays: List[Person] = []
 
     def add_birthday(self, person: Person):
         self.birthdays.append(person)
-
+        #the access to birthday list is controlled using the method above and below - direct data manipulation is prevented outside the class interface
     def remove_birthday(self, name: str):
         self.birthdays = [p for p in self.birthdays if p.name.lower() != name.lower()]

@@ -60,22 +60,12 @@ The unit tests cover the following functionalities:
 - **Invalid Date Handling**: The app raises an error if an invalid date format is provided.
 - **Duplicate User Handling**: The app ensures that users with duplicate IDs are replaced correctly.
 
-The application has been thoroughly tested using Python's **`unittest`** framework to ensure that all features work as expected.
-
-### 5.1. Test Coverage
-The unit tests cover the following functionalities:
-- **Adding and Removing Users**: Tests ensure that users can be added and removed correctly.
-- **Adding and Removing Birthdays**: The app correctly adds and removes birthdays for users.
-- **Saving and Loading Data**: The app saves and loads birthday data to/from the `birthdays.json` file, ensuring data persistence.
-- **Birthday Notifications**: The app correctly checks for birthdays today and sends notifications.
-- **Invalid Date Handling**: The app raises an error if an invalid date format is provided.
-- **Duplicate User Handling**: The app ensures that users with duplicate IDs are replaced correctly.
-
 ### 5.2. Running the Tests
 Tests are executed using the following command:
 ```bash
 python -m unittest test_main.py
 ```
+Or by simply **launching a custom `run_tests.exe` file** which runs all of these tests **automatically**. 
 
 ### 5.3. Example Output
 Running the tests will output results like:

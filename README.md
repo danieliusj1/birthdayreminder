@@ -52,7 +52,7 @@ class NotificationService(Notifier):
 
 The **Birthday Reminder App** has been thoroughly tested using Python's **`unittest`** framework to ensure that all features work as expected. These tests cover the addition/removal of users and birthdays, checking for birthdays on the current day, saving/loading data, and more.
 
-Additionally, an **executable** (.exe) file has been created using **PyInstaller**. This executable makes it easier to launch the testing experience without the need for running Python commands in PowerShell or the terminal. Instead of using the `python test_main.py` command, users can **double-click the `.exe` file** inside of the *dist* folder to run the app. The executable provides a more user-friendly experience, especially for those who are not familiar with command-line usage.
+Additionally, an **executable** (.exe) file has been created using **PyInstaller**. This executable makes it easier to launch the testing experience without the need for running Python commands in PowerShell or the terminal. Instead of using the `python test_main.py` command, users can **double-click the `run_tests.exe` file** inside of the *dist* folder to run the app. The executable provides a more user-friendly experience, especially for those who are not familiar with command-line usage.
 
 ### 5.1. Test Coverage
 The unit tests cover the following functionalities:

@@ -6,7 +6,7 @@ The **Birthday Reminder App** is a Python-based application designed to help use
 
 ### 1.1. How to launch it
 
-The launching process includes some command work and requires to have Python installed on the user's computer. The user needs to **open powershell in the program directory and execute the following command**: 'python main.py'. There is an executable called 'main.exe' in the 'dist' folder, however, the program **does not send out notifications** when opened using the '.exe'.
+The launching process includes some command work and requires to have Python installed on the user's computer. The user needs to **open powershell in the program directory and execute the following command**: `python main.py`. There is an executable called `main.exe` in the `dist` folder, however, the program **does not send out notifications** when opened using the `.exe`.
 ## 2. Features
 
 - **Add Users**: Users can be added to the system, each with their own set of birthdays.
